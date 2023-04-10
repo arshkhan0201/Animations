@@ -1,5 +1,11 @@
+body
+{
+    background: rgb(63,56,189);
+    background: linear-gradient(90deg, rgba(63,56,189,1) 0%, rgba(107,174,187,1) 92%);
+}
 img 
 {
+    width: 100%;
     margin-top: 30px;
 }
 .product-card1 img:hover
@@ -16,13 +22,12 @@ img
 }
 .section 
 {
-    background-color: aquamarine;
     padding: 50px;
 }
 .product-card4 img:hover
 {
     transform: rotatey(360deg);
-    transition: all 6s;
+    transition: all 1s;
 }
 .product-card5 img:hover
 {
